@@ -1,0 +1,55 @@
+body{
+    background-image: linear-gradient(45deg, #0DDAFF, #0B78DE, #002DF5, #2C0BDE, #7D00FA);
+    background-attachment: fixed;
+}
+
+div.mb-3{
+    width: 300px;
+    margin: auto;
+    position: relative;
+
+}  
+.mb-3 input{
+    padding-left: 40px;
+}
+.mb-3 .icon{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    color: gray;
+    transform: translateY(-50%);
+
+}
+
+.btn{
+    background-image: linear-gradient(45deg, #0DDAFF, #0B78DE, #002DF5, #2C0BDE, #7D00FA);
+    width: 300px;
+    color: white;
+
+} 
+
+div.container{
+    position: relative;
+    width: 375px;
+    height: 350px;
+    top: 200px;
+    padding-top: 20px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 10px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.788);
+}   
+h1#titulo{
+    background-image: linear-gradient(45deg, #0DDAFF, #0B78DE, #002DF5, #2C0BDE, #7D00FA);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+} 
+#subtitulo{
+    background-image: linear-gradient(45deg, #0DDAFF, #0B78DE, #002DF5, #2C0BDE, #7D00FA);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-bottom: 5px;
+   
+}
+

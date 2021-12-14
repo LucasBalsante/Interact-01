@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styleinitial.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Interact</title>
+</head>
+
+<body class="text-center" onbeforeunload="verificar()">
+    <div class="container">
+        <h1 id="titulo">Interact</h1>
+        <form>
+            <div class="mb-3" id="form">
+                <input type="text" class="form-control" id="nome" placeholder="Nome">
+            </div>
+
+
+            <div class="mb-3">
+                <input type="email" class="form-control" id="email" placeholder="Email">
+            </div>
+
+            <div class="mb-3" id="anexo">
+                <input type="text" class="form-control"  placeholder="Cole o link do da nota">
+            </div>
+            <div class="btn">
+                <button type="button" class="btn-env" onclick="enviar()">Enviar</button>
+            </div>
+            <div class="btn">
+                <button class="btn-env"><a id="link" href="http://localhost:8080/notas.html" role="button">lista de notas</a> </button>
+            </div>
+            
+        </form>
+
+    </div>
+
+
+
+
+    <script src="scripts/page-initial.js"></script>
+    <script src="scripts/message.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
